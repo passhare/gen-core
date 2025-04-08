@@ -8,8 +8,8 @@ fn main() {
 
 fn generate_secure_password(length: usize) -> String {
     let lowercase = "abcdefghijklmnopqrstuvwxyz";
-    let uppercase = "ABCDEFGHIJKLMNPQRSTUVWXYZ"; // O removed
-    let numbers   = "123456789";                 // 0 removed
+    let uppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"; // O removed
+    let numbers   = "1234567890";                 // 0 removed
     let symbols   = "!@#$%^&*()-_=+[]{};<>?";
 
     let letters = format!("{}{}", lowercase, uppercase);
